@@ -87,9 +87,9 @@ form .btn-primary {
   };
 
   var chart = d3.chart.dependencyWheel()
-          .width(800)
-          .margin(300)
-          .padding(0.04);
+          .width(920)
+          .margin(320)
+          .padding(0.06);
 
   d3.json('data/composer.json', function(composerjson) {
     d3.json('data/composer.lock', function(composerlock) {
